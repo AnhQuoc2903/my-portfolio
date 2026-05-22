@@ -73,7 +73,7 @@ export default function Contact() {
 
             {/* Card content */}
             <div className="relative glass rounded-3xl p-8 md:p-12 hover:bg-white/10 transition-all duration-300">
-              <div className="grid md:grid-cols-2 gap-8">
+              <div className="grid md:grid-cols-2 gap-6 md:gap-8">
                 {/* Left side - Contact Info */}
                 <div className="space-y-6">
                   <h3 className="text-xl font-semibold text-white mb-6 flex items-center gap-2">
@@ -84,16 +84,16 @@ export default function Contact() {
                   {/* Email */}
                   <motion.div
                     whileHover={{ x: 8 }}
-                    className="group/contact flex items-center gap-5 p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-white/20 transition-all duration-300"
+                    className="group/contact flex items-start gap-4 p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-white/20 transition-all duration-300 overflow-hidden"
                   >
                     <div className="p-3 rounded-xl bg-gradient-to-r from-[#ff6b6b]/20 to-[#feca57]/20 group-hover/contact:scale-110 transition-transform duration-300">
                       <Mail className="text-[#feca57]" size={24} />
                     </div>
-                    <div>
+                    <div className="min-w-0 flex-1">
                       <p className="text-xs text-white/50 uppercase tracking-wider">
                         {t("contact.email")}
                       </p>
-                      <p className="text-white font-medium">
+                      <p className="text-white font-medium text-sm sm:text-base break-all">
                         quocna.work@gmail.com
                       </p>
                     </div>
@@ -107,11 +107,13 @@ export default function Contact() {
                     <div className="p-3 rounded-xl bg-gradient-to-r from-[#feca57]/20 to-[#ff9f43]/20 group-hover/contact:scale-110 transition-transform duration-300">
                       <Phone className="text-[#ff9f43]" size={24} />
                     </div>
-                    <div>
+                    <div className="min-w-0 flex-1">
                       <p className="text-xs text-white/50 uppercase tracking-wider">
                         {t("contact.phone")}
                       </p>
-                      <p className="text-white font-medium">0329 555 190</p>
+                      <p className="text-white font-medium text-sm sm:text-base break-all">
+                        0329 555 190
+                      </p>
                     </div>
                   </motion.div>
 
@@ -123,11 +125,11 @@ export default function Contact() {
                     <div className="p-3 rounded-xl bg-gradient-to-r from-[#ff9f43]/20 to-[#ff6b6b]/20 group-hover/contact:scale-110 transition-transform duration-300">
                       <MapPin className="text-[#ff6b6b]" size={24} />
                     </div>
-                    <div>
+                    <div className="min-w-0 flex-1">
                       <p className="text-xs text-white/50 uppercase tracking-wider">
                         {t("contact.location")}
                       </p>
-                      <p className="text-white font-medium">
+                      <p className="text-white font-medium text-sm sm:text-base break-words">
                         Kien Giang City, Vietnam
                       </p>
                     </div>
