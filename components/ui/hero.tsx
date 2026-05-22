@@ -272,6 +272,7 @@ export default function Hero() {
             "MongoDB",
             "Socket.io",
             "TypeScript",
+            "JavaScript",
             "TailwindCSS",
             "Express.js",
           ].map((tech, idx) => (
