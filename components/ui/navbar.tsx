@@ -33,7 +33,9 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto h-16 px-6 flex items-center justify-between">
-        <h1 className="font-bold text-2xl gradient-text">Nguyễn Anh Quốc</h1>
+        <h1 className="font-bold text-lg sm:text-2xl gradient-text truncate max-w-[220px]">
+          Nguyễn Anh Quốc
+        </h1>
 
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (

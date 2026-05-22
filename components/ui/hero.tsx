@@ -66,7 +66,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center px-6 pt-28 md:pt-20 overflow-hidden">
       {/* Animated background particles */}
       <div className="absolute inset-0 pointer-events-none">
         {particles.map((particle, i) => (
@@ -239,7 +239,7 @@ export default function Hero() {
               <div className="absolute -inset-4 bg-gradient-to-r from-[#ff6b6b] via-[#feca57] to-[#ff9f43] rounded-full opacity-75 group-hover:opacity-100 blur-2xl transition duration-500 animate-spin-slow" />
 
               {/* Avatar image with floating animation */}
-              <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl animate-float">
+              <div className="relative w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl animate-float">
                 <Image
                   src="/images/avatar.jpg"
                   alt={t("hero.name")}
