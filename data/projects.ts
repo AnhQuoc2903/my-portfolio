@@ -1,0 +1,53 @@
+// data/projects.ts
+export const projects = [
+  {
+    title: "Artifact Management System",
+    descriptionKey: "project.artifactDesc",
+    stack: [
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Socket.io",
+      "JWT",
+      "TailwindCSS",
+      "Ant Design",
+    ],
+    gradient: "from-[#ff6b6b] to-[#feca57]",
+    demoLink: "https://www.quan-ly-hien-vat.online/",
+    githubFrontend: "https://github.com/AnhQuoc2903/Font_End_Cong_Ty",
+    githubBackend: "https://github.com/AnhQuoc2903/Back_End_Cong_Ty",
+  },
+  {
+    title: "Gaga Oto Management",
+    descriptionKey: "project.gagaDesc",
+    stack: [
+      "React.js",
+      "React Native",
+      "Express.js",
+      "MongoDB",
+      "Cloudinary",
+      "TypeScript",
+    ],
+    gradient: "from-[#feca57] to-[#ff9f43]",
+    demoLink: "",
+    githubFrontend: "https://github.com/AnhQuoc2903/GagaOto-FondEnd",
+    githubBackend: "https://github.com/AnhQuoc2903/GagaOto-BackEnd",
+    githubMobile: "https://github.com/AnhQuoc2903/GagaOto-Mobile",
+  },
+  {
+    title: "Smart Building CMMS",
+    descriptionKey: "project.cmmsDesc",
+    stack: [
+      "React.js",
+      "Node.js",
+      "Socket.io",
+      "RBAC",
+      "MongoDB",
+      "Ant Design",
+    ],
+    gradient: "from-[#ff9f43] to-[#ff6b6b]",
+    demoLink: "",
+    githubFrontend: "https://github.com/AnhQuoc2903/CMMS_FONTEND",
+    githubBackend: "https://github.com/AnhQuoc2903/CMMS_BACKENND",
+  },
+];
